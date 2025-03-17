@@ -118,4 +118,4 @@ SELECT * FROM Employee
 select count(EmployeeID), Department---task 10
 from Employee
 group by Department
-having sum(EmployeeID)>5
+having count(EmployeeID)>5
